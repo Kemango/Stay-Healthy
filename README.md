@@ -28,7 +28,12 @@ Goals (Notification)-> the phone will remind User daily to exercise
 <img src="https://user-images.githubusercontent.com/93504708/139640931-5bdf71ed-0767-4372-954b-94137f733830.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139640931-5bdf71ed-0767-4372-954b-94137f733830.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139640896-25b73c2f-d4ff-4856-a095-ed58400097d8.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139640896-25b73c2f-d4ff-4856-a095-ed58400097d8.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139640784-186c1155-73a0-412f-bc28-00662c04cabf.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139640784-186c1155-73a0-412f-bc28-00662c04cabf.png" height="400" />
 
 ### Data-Input
+- When Entered, it will prompted the user to enter "Name", "Date", "Location"
+- After User click submit button, the data will be entered to a SQLite database.
+- (The Higher the steps, the more points the user gets)
+- In Date-Input, there is a step tacker functions 
 
+<img src="https://user-images.githubusercontent.com/93504708/139645488-1091e1a0-53b3-4d11-ae5d-06b794d24435.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139645488-1091e1a0-53b3-4d11-ae5d-06b794d24435.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139645468-f57630f6-0fdd-46b5-ba77-60a767735767.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139645468-f57630f6-0fdd-46b5-ba77-60a767735767.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139645740-062be4a0-41a3-4c03-8ac2-17fae0119097.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139645740-062be4a0-41a3-4c03-8ac2-17fae0119097.png" height="400" />
 
 ### History
 

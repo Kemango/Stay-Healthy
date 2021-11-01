@@ -31,14 +31,19 @@ Goals (Notification)-> the phone will remind User daily to exercise
 - When Entered, it will prompted the user to enter "Name", "Date", "Location"
 - After User click submit button, the data will be entered to a SQLite database.
 - (The Higher the steps, the more points the user gets)
-- In Date-Input, there is a step tacker functions 
+- In Date-Input, there is a step tacker functions,
 
 <img src="https://user-images.githubusercontent.com/93504708/139645488-1091e1a0-53b3-4d11-ae5d-06b794d24435.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139645488-1091e1a0-53b3-4d11-ae5d-06b794d24435.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139645468-f57630f6-0fdd-46b5-ba77-60a767735767.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139645468-f57630f6-0fdd-46b5-ba77-60a767735767.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139645740-062be4a0-41a3-4c03-8ac2-17fae0119097.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139645740-062be4a0-41a3-4c03-8ac2-17fae0119097.png" height="400" />
 
 ### History
+- All the records will be displayed in the SQLite in a list Format.
+- Select a row in the list will display the locationf from google map.
+- The User can also have the option to sort them accoriding to the Latest Date or the Highest Score with the menu option
 
+<img src="https://user-images.githubusercontent.com/93504708/139646272-a42251cf-e1a4-4444-b5f9-7ed7737af202.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646272-a42251cf-e1a4-4444-b5f9-7ed7737af202.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139646304-c95f1c02-88d8-4c10-8159-28ba72e3bfb9.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646304-c95f1c02-88d8-4c10-8159-28ba72e3bfb9.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139646316-052c8d1b-dfae-42b9-98f6-f64e81e5f6f9.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646316-052c8d1b-dfae-42b9-98f6-f64e81e5f6f9.png" height="400" />
 
 ### Music
+
 
 
 ### Rewards

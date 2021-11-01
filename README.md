@@ -16,7 +16,9 @@ Theme: Healthcare
 
 ### Home Activity
 - It consist of different activity like "Data-Input", "History", "Music" and "Rewards"
-- The user also can access Navigation drawer for more options: 
+The user also can access Navigation drawer for more options: 
 - Tutorial (Basic guide on how to use the app)
-- Traing ()
-- Goals 
+- Goals (Notifcation)
+- About (User's Information)
+- Log Out (Exit)
+<img src="https://user-images.githubusercontent.com/93504708/139639758-6ff109f9-621d-4a0c-a35c-07ac7ff8971e.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139639758-6ff109f9-621d-4a0c-a35c-07ac7ff8971e.png" height="400" />

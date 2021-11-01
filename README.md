@@ -43,7 +43,14 @@ Goals (Notification)-> the phone will remind User daily to exercise
 <img src="https://user-images.githubusercontent.com/93504708/139646272-a42251cf-e1a4-4444-b5f9-7ed7737af202.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646272-a42251cf-e1a4-4444-b5f9-7ed7737af202.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139646304-c95f1c02-88d8-4c10-8159-28ba72e3bfb9.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646304-c95f1c02-88d8-4c10-8159-28ba72e3bfb9.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139646316-052c8d1b-dfae-42b9-98f6-f64e81e5f6f9.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646316-052c8d1b-dfae-42b9-98f6-f64e81e5f6f9.png" height="400" />
 
 ### Music
+It works and function like any other music player (Music can be played in the background)
 
-
+<img src="https://user-images.githubusercontent.com/93504708/139646646-1de1b911-d23e-4db9-b1ae-fb07ab5d4780.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646646-1de1b911-d23e-4db9-b1ae-fb07ab5d4780.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139646662-0e8622c2-5154-4fbd-8e9e-436034f5ca44.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646662-0e8622c2-5154-4fbd-8e9e-436034f5ca44.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139646684-7381fef1-3f68-496f-9f25-f7cf856283b6.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646684-7381fef1-3f68-496f-9f25-f7cf856283b6.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139646696-7125b2a1-43c5-4004-818c-f8ae7cf16187.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139646696-7125b2a1-43c5-4004-818c-f8ae7cf16187.png" height="400" />
 
 ### Rewards
+- There many tiers of reward to choose from 
+- User can only exchange for the reward when if they have enough points
+
+<img src="https://user-images.githubusercontent.com/93504708/139647298-4492b195-bf60-4805-aad1-07deff757b6b.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139647298-4492b195-bf60-4805-aad1-07deff757b6b.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139647309-a4fa5fab-2476-4e3b-a151-38f3f39a7bf7.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139647309-a4fa5fab-2476-4e3b-a151-38f3f39a7bf7.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139647318-69c526a3-b934-41bd-b3c5-734042045660.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139647318-69c526a3-b934-41bd-b3c5-734042045660.png" height="400" />        <img src="https://user-images.githubusercontent.com/93504708/139647494-8c7425ee-c61c-4ce8-b323-b27e23b94912.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139647494-8c7425ee-c61c-4ce8-b323-b27e23b94912.png" height="400" />
+
+

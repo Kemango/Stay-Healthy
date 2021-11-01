@@ -5,6 +5,7 @@ Theme: Healthcare
 ->Create solutions to encourage people to lead healthy lifestyles
 
 ### Splash Screen with Text-to-Speech
+- When the user launches the app, he/she wil be greeted with a splash screen with Text-to-Speech that reads out the name of the app.
 <img src="https://user-images.githubusercontent.com/93504708/139638325-1bf7005d-c0a3-403c-91de-d489ae1e3e3f.png" data-canonical-src="https://user-images.githubusercontent.com/93504708/139638325-1bf7005d-c0a3-403c-91de-d489ae1e3e3f.png" height="400" />
 
 

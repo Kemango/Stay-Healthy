@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditCard_Payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text=" Select Card Type "
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="45dp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="89dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="42dp"
+                app:srcCompat="@drawable/vs_logo" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="45dp"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="87dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="38dp"
+                app:srcCompat="@drawable/ms_logo" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:text="E-mail ID"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="140dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="Moblie Number"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="190dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Credit Card No."
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="90dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:text="Payment Amount (Rs.)"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="240dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp"
+                android:text="Select Payment Option"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="290dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/Pay_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="350dp"
+                android:text="Pay now" />
+
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

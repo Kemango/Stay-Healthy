@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B1F1F"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/yellowtail"
+                android:includeFontPadding="false"
+                android:text="Tutorial"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="630dp"
+                android:layout_marginTop="100dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="375dp"
+                        android:layout_height="550dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        app:cardCornerRadius="20dp">
+
+                        <ImageView
+                            android:id="@+id/imageView55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="350dp"
+                            app:srcCompat="@drawable/navigation_hmi" />
+
+                        <TextView
+                            android:id="@+id/textView68"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="125dp"
+                            android:layout_marginTop="350dp"
+                            android:fontFamily="@font/yellowtail"
+                            android:text="1.Navigation Drawer"
+                            android:textAlignment="center"
+                            android:textColor="#001AFF"
+                            android:textSize="20dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="75dp"
+                            android:layout_marginTop="165dp"
+                            app:srcCompat="@drawable/ic_baseline_redarrow" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="28dp"
+                            android:layout_marginTop="97dp"
+                            android:textColor="#FF0000"
+                            android:text="Tutorial" />
+
+                        <ImageView
+                            android:id="@+id/imageView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="75dp"
+                            android:layout_marginTop="142dp"
+                            app:srcCompat="@drawable/ic_baseline_redarrow" />
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="120dp"
+                            android:text="Reminder"
+                            android:textColor="#FF0000" />
+
+                        <ImageView
+                            android:id="@+id/imageView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="75dp"
+                            android:layout_marginTop="120dp"
+                            app:srcCompat="@drawable/ic_baseline_redarrow" />
+
+                        <TextView
+                            android:id="@+id/textView48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="35dp"
+                            android:layout_marginTop="142dp"
+                            android:text="About"
+                            android:textColor="#FF0000" />
+
+                        <ImageView
+                            android:id="@+id/imageView33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="75dp"
+                            android:layout_marginTop="97dp"
+                            app:srcCompat="@drawable/ic_baseline_redarrow" />
+
+                        <TextView
+                            android:id="@+id/textView49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="26dp"
+                            android:layout_marginTop="165dp"
+                            android:text="Log Out"
+                            android:textColor="#FF0000" />
+
+                        <TextView
+                            android:id="@+id/textView50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="390dp"
+                            android:text="Tutorial : Teach User how to use the app "
+                            android:textColor="#001AFF" />
+
+                        <TextView
+                            android:id="@+id/textView51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="410dp"
+                            android:text="Reminder : Set Daily Reminder to remind user to exercise "
+                            android:textColor="#001AFF" />
+
+                        <TextView
+                            android:id="@+id/textView66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="430dp"
+                            android:text="About : For more information about the creator "
+                            android:textColor="#001AFF" />
+
+                        <TextView
+                            android:id="@+id/textView53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="450dp"
+                            android:text="Log out : Change Account "
+                            android:textColor="#001AFF" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="375dp"
+                        android:layout_height="550dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        app:cardCornerRadius="20dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#DDDDDD">
+
+                            <ImageView
+                                android:id="@+id/imageView15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="350dp"
+                                app:srcCompat="@drawable/home_hmi" />
+
+                            <TextView
+                                android:id="@+id/textView34"
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="125dp"
+                                android:layout_marginTop="350dp"
+                                android:fontFamily="@font/yellowtail"
+                                android:text="2.Home Page"
+                                android:textAlignment="center"
+                                android:textColor="#001AFF"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/textView38"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="390dp"
+                                android:text="Navigation Drawer : For more settings "
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView39"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="410dp"
+                                android:text="Current Points : Use to Exchange Rewards !"
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView40"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="430dp"
+                                android:text="Data Input : Click here to exercise"
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView44"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="445dp"
+                                android:text="(the more step u gets, the more points you received)"
+                                android:textColor="#FF0099" />
+
+                            <TextView
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="485dp"
+                                android:text="History : Check for Previous Records !"
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="465dp"
+                                android:text="Rewards : Click here to Exchange Rewards !"
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="505dp"
+                                android:text="Music: Click here to Play musics !"
+                                android:textColor="#001AFF" />
+
+                            <ImageView
+                                android:id="@+id/imageView16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                app:srcCompat="@drawable/ic_baseline_redarrow" />
+
+                            <TextView
+                                android:id="@+id/textView35"
+                                android:layout_width="73dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:text="Navigation Drawer"
+                                android:textColor="#FF0000" />
+
+                            <ImageView
+                                android:id="@+id/imageView18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="260dp"
+                                app:srcCompat="@drawable/ic_baseline_redarrow" />
+
+                            <TextView
+                                android:id="@+id/textView36"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="260dp"
+                                android:text="Data Input"
+                                android:textColor="#FF0000" />
+
+                            <ImageView
+                                android:id="@+id/imageView21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="310dp"
+                                app:srcCompat="@drawable/ic_baseline_redarrow" />
+
+                            <TextView
+                                android:id="@+id/textView37"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginTop="310dp"
+                                android:text="Reward"
+                                android:textColor="#FF0000" />
+
+                            <ImageView
+                                android:id="@+id/imageView24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="275dp"
+                                android:layout_marginTop="310dp"
+                                app:srcCompat="@drawable/ic_baseline_redarrows2" />
+
+                            <TextView
+                                android:id="@+id/textView45"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="300dp"
+                                android:layout_marginTop="262dp"
+                                android:text="History"
+                                android:textColor="#FF0000" />
+
+                            <ImageView
+                                android:id="@+id/imageView25"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="275dp"
+                                android:layout_marginTop="260dp"
+                                app:srcCompat="@drawable/ic_baseline_redarrows2" />
+
+                            <TextView
+                                android:id="@+id/textView46"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="300dp"
+                                android:layout_marginTop="312dp"
+                                android:text="Music"
+                                android:textColor="#FF0000" />
+
+                        </FrameLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="375dp"
+                        android:layout_height="550dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        app:cardCornerRadius="20dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#DDDDDD">
+
+                            <ImageView
+                                android:id="@+id/imageView17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="350dp"
+                                app:srcCompat="@drawable/data_input_hmi" />
+
+                            <TextView
+                                android:id="@+id/textView69"
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="125dp"
+                                android:layout_marginTop="350dp"
+                                android:fontFamily="@font/yellowtail"
+                                android:text="3.Data Input"
+                                android:textAlignment="center"
+                                android:textColor="#001AFF"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/textView59"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="380dp"
+                                android:text="Name : Write your Name "
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView58"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="400dp"
+                                android:text="Date : Click to select the date"
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView57"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="420dp"
+                                android:text="Location : Click to get the Location"
+                                android:textColor="#001AFF" />
+
+                            <TextView
+                                android:id="@+id/textView56"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="440dp"
+                                android:text="Tier 1 : 10 Steps = 100 points!"
+                                android:textColor="#FF0099" />
+
+                            <TextView
+                                android:id="@+id/textView60"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="480dp"
+                                android:text="Tier 3 : 30 Steps = 300 points!"
+                                android:textColor="#FF0048" />
+
+                            <TextView
+                                android:id="@+id/textView52"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="460dp"
+                                android:text="Tier 2 : 20 Steps= 200 points!"
+                                android:textColor="#FF0099" />
+
+                            <TextView
+                                android:id="@+id/textView54"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="500dp"
+                                android:text="Tier 4: 40 Steps= 400 points!"
+                                android:textColor="#FF0033" />
+
+                            <TextView
+                                android:id="@+id/textView55"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="520dp"
+                                android:text="Max Tier : 50 Steps= 500 points!"
+                                android:textColor="#D30404" />
+
+                        </FrameLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="375dp"
+                        android:layout_height="550dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        app:cardCornerRadius="20dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageView20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="350dp"
+                                app:srcCompat="@drawable/rewards_hmi" />
+
+                            <TextView
+                                android:id="@+id/textView61"
+                                android:layout_width="109dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="125dp"
+                                android:layout_marginTop="350dp"
+                                android:fontFamily="@font/yellowtail"
+                                android:text="4.Rewards"
+                                android:textAlignment="center"
+                                android:textColor="#001AFF"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:id="@+id/textView62"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginTop="430dp"
+                                android:text="Tier 3 Rewards: 3000 points = 10 Dollars!"
+                                android:textColor="#FF0048" />
+
+                            <TextView
+                                android:id="@+id/textView64"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginTop="390dp"
+                                android:text="Tier 1 Rewards: 800 points = 2 Dollars!"
+                                android:textColor="#FF0099" />
+
+                            <TextView
+                                android:id="@+id/textView65"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="60dp"
+                                android:layout_marginTop="410dp"
+                                android:text="Tier 2 Rewards: 1600 points = 5 Dollars!"
+                                android:textColor="#FF0033" />
+
+                        </FrameLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

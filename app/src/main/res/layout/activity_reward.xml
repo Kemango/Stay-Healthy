@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reward">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/yellowtail"
+                    android:includeFontPadding="false"
+                    android:text="Rewards"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="40dp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="258dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="350dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="30dp"
+                            app:cardCornerRadius="20dp">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView10"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:backgroundTintMode="src_atop"
+                                    android:tintMode="src_over"
+                                    app:srcCompat="@drawable/small_reward"
+                                    app:tint="#74000000" />
+
+                                <ImageView
+                                    android:id="@+id/imageView11"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginLeft="300dp"
+                                    android:layout_marginTop="12dp"
+                                    app:srcCompat="@drawable/premium_quality" />
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20sp"
+                                    android:layout_marginTop="55dp"
+                                    android:text="$2 "
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/textView20"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20sp"
+                                    android:layout_marginTop="73dp"
+                                    android:text="800 Healthpoints"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Tier 1 Reward "
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp" />
+
+                                <Button
+                                    android:id="@+id/Small_Claim"
+                                    android:layout_width="320dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="150dp"
+                                    android:background="@drawable/custom_button"
+                                    android:text="Claim it Now !!"
+                                    android:textColor="#0040FF"
+                                    android:textStyle="normal" />
+                            </FrameLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="350dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="30dp"
+                            app:cardCornerRadius="20dp">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView19"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTintMode="src_atop"
+                                    android:tintMode="src_over"
+                                    app:srcCompat="@drawable/medium_reward"
+                                    app:tint="#8A000000" />
+
+                                <ImageView
+                                    android:id="@+id/imageView7"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginLeft="300dp"
+                                    android:layout_marginTop="12dp"
+                                    app:srcCompat="@drawable/premium_quality" />
+
+                                <TextView
+                                    android:id="@+id/textView22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Tier 2 Reward"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp" />
+
+                                <TextView
+                                    android:id="@+id/textView17"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20sp"
+                                    android:layout_marginTop="55dp"
+                                    android:text="$5"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/textView21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20sp"
+                                    android:layout_marginTop="73dp"
+                                    android:text="1600 Healthpoints"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="12dp" />
+
+                                <Button
+                                    android:id="@+id/Median_claim"
+                                    android:layout_width="320dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="150dp"
+                                    android:background="@drawable/custom_button"
+                                    android:text="Claim it Now !!"
+                                    android:textColor="#0040FF"
+                                    android:textStyle="normal" />
+
+                            </FrameLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="350dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="30dp"
+                            app:cardCornerRadius="20dp">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageView8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="226dp"
+                                    android:backgroundTintMode="src_atop"
+                                    android:tintMode="src_over"
+                                    app:srcCompat="@drawable/large_reward"
+                                    app:tint="#37000000" />
+
+                                <ImageView
+                                    android:id="@+id/imageView9"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginLeft="300dp"
+                                    android:layout_marginTop="12dp"
+                                    app:srcCompat="@drawable/premium_quality" />
+
+                                <TextView
+                                    android:id="@+id/textView23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20sp"
+                                    android:layout_marginTop="55dp"
+                                    android:text="$10"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/textView24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20sp"
+                                    android:layout_marginTop="73dp"
+                                    android:text="3000 Healthpoints"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="12dp" />
+
+                                <TextView
+                                    android:id="@+id/textView25"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Tier 3 Reward"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="20dp" />
+
+                                <Button
+                                    android:id="@+id/Large_Claim"
+                                    android:layout_width="320dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="150dp"
+                                    android:background="@drawable/custom_button"
+                                    android:text="Claim it Now !!"
+                                    android:textColor="#0040FF"
+                                    android:textStyle="normal" />
+                            </FrameLayout>
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="90dp"
+                    android:fontFamily="@font/yellowtail"
+                    android:text="Current Points :"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="33dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="285dp"
+                android:layout_height="285dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="350dp"
+                app:srcCompat="@drawable/rectangle" />
+
+            <TextView
+                android:id="@+id/Side_point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="485dp"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#0022FF"
+                android:textSize="38dp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
